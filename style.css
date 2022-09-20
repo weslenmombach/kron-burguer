@@ -1,0 +1,108 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'jose';
+    src: url(fonts/JosefinSlab-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'sriracha';
+    src: url(fonts/Sriracha-Regular.ttf);
+}
+@font-face {
+    font-family: 'suez';
+    src: url(fonts/SuezOne-Regular.ttf);
+}
+
+header{
+    background-color: rgba(21, 21, 21, 1);
+    color: white;
+    height: 225px;
+    text-align: center;
+    min-width: 400px;
+}
+header > a{
+    text-decoration: none;
+    color: rgba(255, 165, 0, 1);
+    font-family: 'sriracha';
+    padding: 10px 10px 20px 10px;
+}
+header > a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-family: 'suez', Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    font-weight: normal;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+header > p{
+    color: rgba(255, 165, 0, 1);
+    font-family: 'sriracha';
+    padding-bottom: 35px;
+}
+
+
+
+
+body{
+    background-color: rgba(117, 75, 45, 1);
+}
+
+main{
+    background-color: white;
+    max-width: 900px;
+    min-width: 380px;
+    margin: auto;
+    padding: 35px;
+    font-family: 'jose';
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+h2{
+    text-align: center;
+    font-family: 'sriracha', Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: 'sriracha', Arial, Helvetica, sans-serif;
+}
+
+#bebidas{
+    background-color: rgba(58, 58, 58, 1);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgba(21, 21, 21, 1);
+    color: white;
+    text-align: center;
+    font-size: normal;
+    padding: 7px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
