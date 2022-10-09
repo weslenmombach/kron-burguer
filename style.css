@@ -4,6 +4,10 @@
     margin: 0px;
 }
 
+#container{
+    overflow: auto;
+}
+
 @font-face {
     font-family: 'jose';
     src: url(fonts/JosefinSlab-VariableFont_wght.ttf);
